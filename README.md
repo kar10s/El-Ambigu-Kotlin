@@ -1,3 +1,3 @@
 ## CONVERSION JAVA A KOTLIN DE EL AMBIGU
 
-Conversion de el Ambigu_esp de Java a Kotlin
+Conversión de el Ambigu_Esp a Kotlin, actualización librerias y adaptación a nuevas tecnicas programación
