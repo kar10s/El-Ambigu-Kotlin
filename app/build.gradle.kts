@@ -1,6 +1,9 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("com.google.dagger.hilt.android")
+    id("kotlin-kapt")
+
 }
 
 android {
@@ -37,6 +40,10 @@ android {
     buildFeatures{
         viewBinding = true
     }
+
+    kotlin{
+        jvmToolchain(8)
+    }
 }
 
 dependencies {
@@ -51,6 +58,10 @@ dependencies {
     // Navigation Component : NavComponent
     implementation("androidx.navigation:navigation-fragment-ktx:$navVersion")
     implementation("androidx.navigation:navigation-ui-ktx:$navVersion")
+
+    //DaggerHilt
+    implementation("com.google.dagger:hilt-android:2.48")
+    kapt("com.google.dagger:hilt-compiler:2.48")
 
 
 
