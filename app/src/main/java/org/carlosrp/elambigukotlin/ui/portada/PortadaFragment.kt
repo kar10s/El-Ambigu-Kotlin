@@ -5,8 +5,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import dagger.hilt.android.AndroidEntryPoint
 import org.carlosrp.elambigukotlin.databinding.FragmentPortadaBinding
 
+@AndroidEntryPoint
 class PortadaFragment : Fragment() {
     private var _binding:FragmentPortadaBinding? = null
     private val binding get() =_binding!!
