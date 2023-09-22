@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <color name="colorPrimary">#FF6200EE</color>
+    <color name="colorPrimaryVariant">#FF3700B3</color>
+    <color name="colorOnPrimary">#FFFFFFFF</color>
+
+    <color name="colorSecondary">#FF03DAC5</color>
+    <color name="colorSecondaryVariant">#FF018786</color>
+    <color name="colorOnSecondary">#FF000000</color>
+
+    <color name="colorAccent">#FFEB3B</color>
+    <color name="colorAzulmasoscuro">#101b5b</color>
+    <color name="colorRojo">#6C0505</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="blue">#7BCEFF</color>
 
-    <color name="colorPrimary">#3f51b5</color>
-    <color name="colorPrimaryDark">#303f9f</color>
-    <color name="colorAccent">#fb050002</color>
-    <color name="colorAzulmasoscuro">#101b5b</color>
-    <color name="colorRojo">#F50404</color>
 
-    <color name="edittextunderline">#B07D4A</color>
-    <color name ="login_button_background">#b07d4a</color>
-    <color name ="bg_login">#FAF9F7</color>
-    <color name="bg_register">#2e3237</color>
-    <color name="bg_main">#428bca</color>
-    <color name="input_login">#222222</color>
-    <color name="input_login_hint">#999999</color>
-    <color name="input_register">#888888</color>
-    <color name="input_register_bg">#3b4148</color>
-    <color name="input_register_hint">#5e6266</color>
-    <color name="btn_login">#26ae90</color>
-    <color name="btn_login_bg">#eceef1</color>
-    <color name="lbl_name">#333333</color>
-    <color name="btn_logut_bg">#ff6861</color>
+
 </resources>

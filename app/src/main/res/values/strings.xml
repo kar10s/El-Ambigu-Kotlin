@@ -12,4 +12,6 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_tracks_safety">Tracks and safety</string>
     <string name="navigation_check_status">Check track status</string>
+    <string name="name">Nombre</string>
+    <string name="password">Password</string>
 </resources>
