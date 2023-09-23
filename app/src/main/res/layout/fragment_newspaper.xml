@@ -3,13 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.portada.PortadaFragment">
+    tools:context=".ui.newspaper.NewspaperFragment">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:textSize="44sp"
-        android:text="fragment Portada" />
+        android:text="fragment NewsPaper" />
 
 </FrameLayout>

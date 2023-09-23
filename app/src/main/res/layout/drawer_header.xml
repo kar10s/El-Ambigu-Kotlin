@@ -2,15 +2,31 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="150dp"
-    android:background="@color/colorRojo"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/nav_header_bg"
     android:gravity="bottom"
-
+    android:theme="@style/ThemeOverlay.MaterialComponents.Dark"
     android:orientation="vertical"
-
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:scaleType="centerCrop">
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="70dp"
+        android:id="@+id/card_view_header_drawer">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo50"
+            android:contentDescription="content_description"
+            android:scaleType="centerCrop">
 
+        </ImageView>
+
+        
+    </androidx.cardview.widget.CardView>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

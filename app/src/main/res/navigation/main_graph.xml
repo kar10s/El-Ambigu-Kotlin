@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_graph"
-    app:startDestination="@id/portadaFragment">
+    app:startDestination="@id/inicioFragment">
 
 
     <fragment
@@ -17,13 +17,23 @@
         android:label="fragment_register"
         tools:layout="@layout/fragment_register" />
     <fragment
-        android:id="@+id/portadaFragment"
-        android:name="org.carlosrp.elambigukotlin.ui.portada.PortadaFragment"
-        android:label="fragment_portada"
-        tools:layout="@layout/fragment_portada" />
+        android:id="@+id/inicioFragment"
+        android:name="org.carlosrp.elambigukotlin.ui.inicio.InicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" />
     <fragment
         android:id="@+id/settingFragment"
         android:name="org.carlosrp.elambigukotlin.ui.setting.SettingFragment"
         android:label="fragment_setting"
         tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/gridSelectorFragment"
+        android:name="org.carlosrp.elambigukotlin.ui.selector.GridSelectorFragment"
+        android:label="fragment_grid_selector"
+        tools:layout="@layout/fragment_grid_selector" />
+    <fragment
+        android:id="@+id/newspaperFragment"
+        android:name="org.carlosrp.elambigukotlin.ui.newspaper.NewspaperFragment"
+        android:label="fragment_newspaper"
+        tools:layout="@layout/fragment_newspaper" />
 </navigation>

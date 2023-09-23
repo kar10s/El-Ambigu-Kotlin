@@ -2,10 +2,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/portadaFragment"
-        android:icon="@drawable/ic_portada"
-        android:title="@string/portada" />
-    <item
         android:id="@+id/loginFragment"
         android:icon="@drawable/ic_login"
         android:title="@string/login" />

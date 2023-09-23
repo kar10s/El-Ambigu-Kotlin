@@ -6,19 +6,14 @@
         android:id="@+id/group1"
         android:checkableBehavior="single">
         <item
-            android:id="@+id/portadaFragment"
-            android:icon="@drawable/ic_portada"
-            android:title="Portada"
+            android:id="@+id/inicioFragment"
+            android:icon="@drawable/ic_inicio"
+            android:title="@string/inicio"
             tools:ignore="HardcodedText" />
         <item
-            android:id="@+id/loginFragment"
-            android:icon="@drawable/ic_login"
-            android:title="Login"
-            tools:ignore="HardcodedText" />
-        <item
-            android:id="@+id/registerFragment"
-            android:icon="@drawable/ic_register"
-            android:title="Register"
+            android:id="@+id/newspaperFragment"
+            android:icon="@drawable/ic_inicio"
+            android:title="Newspaper"
             tools:ignore="HardcodedText" />
 
     </group>

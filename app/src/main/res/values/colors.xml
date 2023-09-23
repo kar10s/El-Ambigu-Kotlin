@@ -22,6 +22,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="blue">#7BCEFF</color>
 
+    <color name="gradient_end_color">#716F81</color>
+    <color name="gradient_start_color">#B97A95</color>
 
 
 </resources>

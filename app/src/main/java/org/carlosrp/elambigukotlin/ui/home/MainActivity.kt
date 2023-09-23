@@ -16,7 +16,7 @@ import org.carlosrp.elambigukotlin.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private lateinit var navController: NavController   //Clase padre que controla toda la navegacion
-    lateinit var appBarConfiguration: AppBarConfiguration
+    private lateinit var appBarConfiguration: AppBarConfiguration
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,8 +31,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initNavigation() {
-        val navHost =
-            supportFragmentManager.findFragmentById(R.id.navHost) as NavHostFragment //frg Container in Main
+        val navHost = supportFragmentManager.findFragmentById(R.id.navHost) as NavHostFragment //frg Container in Main
         navController = navHost.navController
 
         binding.drawerNavView.setupWithNavController(navController)
@@ -41,9 +40,16 @@ class MainActivity : AppCompatActivity() {
 
     private fun initAppBarConfiguration() {
         setSupportActionBar(binding.toolbar)
-        appBarConfiguration = AppBarConfiguration(navController.graph, binding.layoutDrawer)
-
-
+        //appBarConfiguration = AppBarConfiguration(navController.graph, binding.layoutDrawer)
+//        appBarConfiguration = AppBarConfiguration(
+//            setOf(
+//                R.id.inicioFragment,R.id.loginFragment,R.id.registerFragment,R.id.settingFragment
+//            ),binding.layoutDrawer
+//        )
+        appBarConfiguration = AppBarConfiguration(
+            setOf(R.id.newspaperFragment,R.id.settingFragment,R.id.inicioFragment,R.id.gridSelectorFragment
+            ),binding.layoutDrawer
+        )
 
         //appBarConfiguration = AppBarConfiguration(navController.graph,binding.layoutDrawer, fallbackOnNavigateUpListener = {true})
         setupActionBarWithNavController(navController, appBarConfiguration)
