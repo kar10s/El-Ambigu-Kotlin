@@ -17,14 +17,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimaryVariant"
+            app:titleTextColor="@color/colorOnPrimary"
+            app:subtitleTextColor="@color/colorOnPrimary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:subtitleTextColor="@color/colorOnPrimary"
             app:title="@string/app_name"
             app:titleCentered="false"
             app:titleMargin="6dp"
-            app:titleTextColor="@color/colorOnPrimary" />
+            android:fitsSystemWindows="true"/>
 
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/navHost"

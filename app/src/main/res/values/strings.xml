@@ -6,6 +6,7 @@
     <string name="portada">Portada</string>
     <string name="login">Login</string>
     <string name="registro">Registro</string>
+    <string name="setting">Setting</string>
 
     <!-- NAV DRAWER -->
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -14,4 +15,5 @@
     <string name="navigation_check_status">Check track status</string>
     <string name="name">Nombre</string>
     <string name="password">Password</string>
+
 </resources>

@@ -16,7 +16,8 @@
         android:layout_height="wrap_content"
         android:paddingTop="16dp"
         android:text="El Ambigu"
-        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+
+        android:textAppearance="?attr/textAppearanceHeadline6"
         android:textColor="?attr/colorOnPrimary"
         android:textStyle="bold" />
 

@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun initNavigation() {
         val navHost =
-            supportFragmentManager.findFragmentById(R.id.navHost) as NavHostFragment //frg Container
+            supportFragmentManager.findFragmentById(R.id.navHost) as NavHostFragment //frg Container in Main
         navController = navHost.navController
 
         binding.drawerNavView.setupWithNavController(navController)
@@ -42,11 +42,18 @@ class MainActivity : AppCompatActivity() {
     private fun initAppBarConfiguration() {
         setSupportActionBar(binding.toolbar)
         appBarConfiguration = AppBarConfiguration(navController.graph, binding.layoutDrawer)
+
+
+
+        //appBarConfiguration = AppBarConfiguration(navController.graph,binding.layoutDrawer, fallbackOnNavigateUpListener = {true})
         setupActionBarWithNavController(navController, appBarConfiguration)
+
     }
 
 
     override fun onSupportNavigateUp(): Boolean {
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
+        //return navController.navigateUp(appBarConfiguration)
+        //return true
     }
 }

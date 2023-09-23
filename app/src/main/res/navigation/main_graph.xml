@@ -5,6 +5,7 @@
     android:id="@+id/main_graph"
     app:startDestination="@id/portadaFragment">
 
+
     <fragment
         android:id="@+id/loginFragment"
         android:name="org.carlosrp.elambigukotlin.ui.login.LoginFragment"
@@ -20,4 +21,9 @@
         android:name="org.carlosrp.elambigukotlin.ui.portada.PortadaFragment"
         android:label="fragment_portada"
         tools:layout="@layout/fragment_portada" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="org.carlosrp.elambigukotlin.ui.setting.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
 </navigation>
