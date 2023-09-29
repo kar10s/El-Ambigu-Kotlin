@@ -2,6 +2,7 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("com.google.dagger.hilt.android")
+    id("androidx.navigation.safeargs.kotlin")
     id("kotlin-kapt")
 
 }
@@ -48,7 +49,7 @@ android {
 
 dependencies {
 
-    val navVersion = "2.7.2"
+    val navVersion = "2.7.3"
 
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")

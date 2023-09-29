@@ -6,7 +6,8 @@ import androidx.recyclerview.widget.RecyclerView
 import org.carlosrp.elambigukotlin.R
 import org.carlosrp.elambigukotlin.domain.model.NewspaperInfo
 
-class NewspaperAdapter(private var newspaperInfoList: List<NewspaperInfo> = emptyList()):
+class NewspaperAdapter(private var newspaperInfoList: List<NewspaperInfo> = emptyList(),
+    private var onItemSelected:(NewspaperInfo)->Unit):
     RecyclerView.Adapter<NewspaperViewHolder> (){
 
     fun updateList(list:List<NewspaperInfo>){
@@ -22,7 +23,7 @@ class NewspaperAdapter(private var newspaperInfoList: List<NewspaperInfo> = empt
 
     override fun getItemCount(): Int = newspaperInfoList.size
     override fun onBindViewHolder(holder: NewspaperViewHolder, position: Int) {
-        holder.render(newspaperInfoList[position])
+        holder.render(newspaperInfoList[position],onItemSelected)
     }
 
 }

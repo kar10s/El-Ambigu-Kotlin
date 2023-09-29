@@ -16,7 +16,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimaryVariant"
+            android:background="@color/colorPrimary"
             app:titleTextColor="@color/colorOnPrimary"
             app:subtitleTextColor="@color/colorOnPrimary"
             app:layout_constraintEnd_toEndOf="parent"
@@ -35,18 +35,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:defaultNavHost="true"
-
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/toolbar"
             app:layout_constraintBottom_toTopOf="@+id/bottomNavView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
             app:navGraph="@navigation/main_graph" />
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottomNavView"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:background="@color/colorPrimaryVariant"
+            android:background="@color/colorPrimary"
             android:padding="4dp"
             app:itemIconSize="36dp"
             app:itemIconTint="@color/colorOnPrimary"

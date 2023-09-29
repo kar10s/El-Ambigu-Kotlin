@@ -1,22 +1,7 @@
-<!--<resources xmlns:tools="http://schemas.android.com/tools">
-    &lt;!&ndash; Base application theme. &ndash;&gt;
-    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        &lt;!&ndash; Primary brand color. &ndash;&gt;
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
-        <item name="colorOnPrimary">@color/colorOnPrimary</item>
-        &lt;!&ndash; Secondary brand color. &ndash;&gt;
-        <item name="colorSecondary">@color/colorSecondary</item>
-        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
-        <item name="colorOnSecondary">@color/colorOnSecondary</item>
-        &lt;!&ndash; Status bar color. &ndash;&gt;
-        <item name="android:statusBarColor">?attr/colorOnPrimary</item>
-    </style>
-</resources>-->
 
 <resources>
     <!-- Base application theme. -->
-    <style name="Theme.NavigationComponent" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.App" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/colorPrimary</item>  <!-- Color de los botones -->
         <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item> <!-- Color de barra de la fecha, bateria -->
@@ -27,22 +12,19 @@
         <item name="colorOnSecondary">@color/colorOnSecondary</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
-
         <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
         <item name="spinBars">true</item>
         <item name="color">@android:color/white</item>
 
-        <!-- Customize your theme here. -->
     </style>
 
-    <style name="Theme.NavigationComponent.NoActionBar">
+    <style name="Theme.App.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.NavigationComponent.AppBarOverlay"
-        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-    <style name="Theme.NavigationComponent.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.App.AppBarOverlay"  parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.App.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>

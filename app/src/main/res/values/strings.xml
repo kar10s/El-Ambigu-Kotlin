@@ -24,6 +24,14 @@
     <string name="elespanol">El Español</string>
     <string name="larazon">La Razón</string>
     <string name="elindependiente">El Independiente</string>
+    <string name="as">AS</string>
+    <string name="bbcmundo">BBC Mundo</string>
+    <string name="elconfidencial">El Confidencial</string>
+    <string name="europapress">Europa Press</string>
+    <string name="libertaddigital">Libertad Digital</string>
+    <string name="periodistadigital">Periodosta Digital</string>
+    <string name="vozpopuli">Voz Populi</string>
+
 
 
 </resources>
