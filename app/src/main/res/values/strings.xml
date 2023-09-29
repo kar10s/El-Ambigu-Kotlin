@@ -16,4 +16,14 @@
     <string name="name">Nombre</string>
     <string name="password">Password</string>
 
+    <!-- Periodicos -->
+    <string name="abc">ABC</string>
+    <string name="elmundo">El Mundo</string>
+    <string name="elimparcial">EL Imparcial</string>
+    <string name="okdiario">OK Diario</string>
+    <string name="elespanol">El Español</string>
+    <string name="larazon">La Razón</string>
+    <string name="elindependiente">El Independiente</string>
+
+
 </resources>

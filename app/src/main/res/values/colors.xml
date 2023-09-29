@@ -21,6 +21,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="blue">#7BCEFF</color>
+    <color name="itemSeparator">#B9B9BB</color>
 
     <color name="gradient_end_color">#716F81</color>
     <color name="gradient_start_color">#B97A95</color>
